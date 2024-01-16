@@ -1,10 +1,12 @@
 import react from 'react';
 import './App.css';
+import { Header } from './components/header.html';
 
 function App() {
     return (
-        <div>
+        <div className='App'>
             <Router>
+                <Header />
                 <Routes>
                     
                 </Routes>
@@ -12,3 +14,5 @@ function App() {
         </div>
     )
 }
+
+export default App;
