@@ -1,6 +1,8 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
-import { Header } from './components/header.html';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Header } from './components/header';
+import { Homepage } from './components/HomePage';
 
 function App() {
     return (
@@ -8,11 +10,11 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    
+                    <Route path="/" element={<Homepage />} />
                 </Routes>
             </Router>
         </div>
-    )
+    );
 }
 
 export default App;
