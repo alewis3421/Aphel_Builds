@@ -3,6 +3,7 @@
     max-width: 90vw;
     border-style: solid;
     position: relative;
+    background-color: #2F6475;
 }
 #home {
     margin-top: 10px;
@@ -19,12 +20,43 @@
 
 }
 .builds {
-    height: 400px;
+    height: 500px;
     border-style: dashed;
+    /*background-color: #0020FF;*/
 }
 #title2 {
     font-size: 55px;
     text-align: center;
     border-style: solid;
     margin-top: 0;
+}
+.subtitle {
+    border-style: solid;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    background-color: #00A5DB;
+}
+.build {
+    /*border-style: dashed;*/
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*background-color: #0098FF;*/
+}
+.pc {
+    border-style: solid;
+    height: 40%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #2287A8;
+}
+.displays {
+    /*border-style: solid;*/
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 15px; 
 }
